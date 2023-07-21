@@ -1,0 +1,8 @@
+<%- include("partials/header.ejs") %>
+    <% if (locals.brandName) { %>
+        <h1 class="text-white fs-1"> <%= brandName %> </h1>
+    <% } else { %>
+        <h1 class="text-white fs-1">Welcome to the Band Generator 🤟</h1>
+    <% } %>
+<%- include("partials/form.ejs") %>
+<%- include("partials/footer.ejs") %>
